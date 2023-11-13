@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Funfact from "../components/Funfact";
+import Course from "../components/Course";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Navbar />
       <Header />
       <Funfact />
+      <Course />
     </>
   );
 }
